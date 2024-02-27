@@ -11,7 +11,7 @@ export const main = (container, { state, setState }) => {
     .selectAll("svg")
     .data([null])
     .join("svg")
-    .style("background", "rgba(10,10,10,0.8)")
+    .style("background", "rgba(0,0,0,1)")
     .attr("width", width)
     .attr("height", height);
 
